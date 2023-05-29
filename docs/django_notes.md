@@ -102,4 +102,16 @@ INSTALLED_APPS = [
         - In some frameworks, it's called an action
             - In django it's known as a view (confusing ik)
 
+## Data Modelling
 
+- When app boundaries are too large
+    - end up with monolithic structure which is hard to use
+
+- When app boundaries are too small
+    - end up with highly coupled structure
+
+- Good design
+    - Minimal coupling
+    - High cohesion
+        - Each app does one thing and does it well
+        - Apps are well focussed
