@@ -92,3 +92,14 @@ INSTALLED_APPS = [
         - views.py is essentially the requests handler
 
 - Need to update created apps in the django projects settings.py INSTALLED_APPS list
+
+## Writing views
+
+- HTTP is a request response protocol
+    - We do this through views in django
+    - Django view functions take a request and return a response
+        - The function is essentially a request handler
+        - In some frameworks, it's called an action
+            - In django it's known as a view (confusing ik)
+
+
