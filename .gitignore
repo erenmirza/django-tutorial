@@ -1,4 +1,6 @@
-vscode/*
+.venv/*
+
+.vscode/
 
 # Local History for Visual Studio Code
 .history/
